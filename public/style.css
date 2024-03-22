@@ -1,0 +1,142 @@
+*{ 
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{ 
+    font-family: "Noto Sans Khojki", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    background:  linear-gradient(360deg, #AE445A, #F39F5A);
+    min-height: 100vh;
+}
+
+
+.container-main{ 
+    width: 350px;
+    height: 450px;
+    background-color: #AE445A;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius:20px;
+    box-shadow: 10px 10px #F39F5A;
+}
+
+.overall-container{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.container-main h1{ 
+    background-color: #8a3564;
+    border-radius: 20px;
+    padding: 0px 87px;
+}
+
+.container-main h4{ 
+    font-style: italic;
+    color: rgb(214, 200, 200);
+
+    position: relative;
+    top: 4px;
+}
+
+.form{ 
+    position: relative;
+    top: 25px;
+
+    display: flex;
+    gap: 10px;
+}
+
+.form input{ 
+    border: none;
+    outline: none;
+    padding: 15px 15px;
+    border-radius: 50vh;
+    font-style: italic;
+}
+
+.button-bubblo{ 
+    padding: 15px 15px;
+    border-radius: 50vh;
+    font-style: italic;
+    border: solid black;
+
+    transition: all 0.3s ease;
+}
+
+.button-bubblo:hover{ 
+    background-color: #F39F5A;
+    font-weight: bolder;
+}
+
+/* bubbles */
+.bubbles{ 
+    position: relative;
+    top: 70px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bubbles li{ 
+    /* width: 80px;
+    height: 80px; */
+
+    width: auto;
+    height: auto;
+    padding: 10px 10px;
+    border: solid black;
+    text-decoration: none;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 3px #d49b6b;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bubbles ul{ 
+    list-style-type: none;
+
+    gap: 15px;
+    display: flex;
+}
+
+/* bubbles */
+
+/* footer */
+footer img{ 
+    width: 20px;
+    height: 20px;
+}
+
+.copyright{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+
+footer p{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{ 
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+/* footer section closed */
